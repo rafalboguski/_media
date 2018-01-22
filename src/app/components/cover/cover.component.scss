@@ -1,0 +1,23 @@
+.cover{
+float: left;
+margin: 5px;
+
+  .panel-body{
+    
+
+    img{
+      width: 200px;
+      height: 300px;
+    }
+  }
+
+  .panel-footer{
+    height: 100px;
+    overflow-y: hidden;
+
+    p{
+      font-weight: bold;
+    }
+  }
+
+}

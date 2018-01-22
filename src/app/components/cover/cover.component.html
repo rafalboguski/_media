@@ -1,0 +1,11 @@
+<div class="cover panel panel-default">
+  <div class="panel-body">
+    <img [src]=item.image/>
+  </div>
+  <div class="panel-footer">
+    <p>{{ item.name }}</p>
+    <span class="badge" *ngFor="let tag of item.tags">
+           #{{ tag }}
+         </span>
+  </div>
+</div>
